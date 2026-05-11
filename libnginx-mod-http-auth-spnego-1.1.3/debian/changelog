@@ -1,0 +1,71 @@
+libnginx-mod-http-auth-spnego (1:1.1.3-2+ubuntu24.04.1+deb.meiners.net+1.28.3) noble; urgency=medium
+
+  * Backport to noble from resolute
+
+ -- David Meiners <david@meiners.net>  Thu, 07 May 2026 15:12:08 +0000
+
+libnginx-mod-http-auth-spnego (1.1.3-2ubuntu4) resolute; urgency=medium
+
+  * Rebuild against new nginx-abi-1.28.3-1.
+
+ -- Gianfranco Costamagna <locutusofborg@debian.org>  Tue, 31 Mar 2026 20:23:03 +0200
+
+libnginx-mod-http-auth-spnego (1.1.3-2ubuntu3) resolute; urgency=medium
+
+  * Rebuild against new nginx-abi-1.28.2.
+
+ -- Gianfranco Costamagna <locutusofborg@debian.org>  Tue, 17 Feb 2026 22:00:13 +0100
+
+libnginx-mod-http-auth-spnego (1.1.3-2ubuntu2) resolute; urgency=medium
+
+  * Rebuild against new nginx 1.28.1.
+
+ -- Gianfranco Costamagna <locutusofborg@debian.org>  Mon, 29 Dec 2025 14:09:18 +0100
+
+libnginx-mod-http-auth-spnego (1.1.3-2ubuntu1) questing; urgency=low
+
+  * Merge from Debian unstable. Remaining changes:
+    - Mark one test as flaky, for some reasons openldap fails to install on
+      lxc container
+
+ -- Gianfranco Costamagna <locutusofborg@debian.org>  Mon, 22 Sep 2025 10:33:41 +0200
+
+libnginx-mod-http-auth-spnego (1.1.3-2) unstable; urgency=medium
+
+  * Team upload.
+  * d/watch: rewrite to version 5, use Github uscan-template
+  * d/gbp.conf: dist = DEP14, debian-branch = debian/latest
+  * d/changelog: fix whitespace
+  * d/gbp.conf: upstream-branch = upstream/latest
+  * d/control: remove Rules-Requires-Root: no
+
+ -- Jan Mojžíš <janmojzis@debian.org>  Sat, 20 Sep 2025 18:07:21 +0200
+
+libnginx-mod-http-auth-spnego (1.1.3-1ubuntu1) questing; urgency=medium
+
+  * Mark one test as flaky, for some reasons openldal fails to install on
+    lxc container
+
+ -- Gianfranco Costamagna <locutusofborg@debian.org>  Mon, 01 Sep 2025 09:46:11 +0200
+
+libnginx-mod-http-auth-spnego (1.1.3-1) unstable; urgency=medium
+
+  [ David Härdeman ]
+  * New upstream version.
+  * Drop Debian patches which have been upstreamed.
+  * Improved autopkgtests.
+  * Bump standards version.
+
+ -- Jérémy Lal <kapouer@melix.org>  Tue, 13 May 2025 00:50:27 +0200
+
+libnginx-mod-http-auth-spnego (1.1.2-2) unstable; urgency=medium
+
+  * Source-only upload
+
+ -- Jérémy Lal <kapouer@melix.org>  Mon, 10 Feb 2025 15:15:27 +0100
+
+libnginx-mod-http-auth-spnego (1.1.2-1) unstable; urgency=medium
+
+  * Initial release. (Closes: 1032835)
+
+ -- David Härdeman <david@hardeman.nu>  Tue, 14 Jan 2025 00:46:16 +0100
